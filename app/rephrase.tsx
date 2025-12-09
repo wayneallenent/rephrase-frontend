@@ -12,7 +12,7 @@ export default function RephraseScreen() {
     setOutput("");
   
     try {
-      const response = await fetch("http://192.168.68.58:4000/rephrase", {
+        const response = await fetch("https://theresa-unsentient-flavia.ngrok-free.dev/rephrase", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
