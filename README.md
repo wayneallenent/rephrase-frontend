@@ -1,50 +1,145 @@
-# Welcome to your Expo app 👋
+# 🧱 Manifest Like a Hustler (MNFT)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Building Real-World Wealth Through Alignment, Ownership, and Execution
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Overview
 
-   ```bash
-   npm install
-   ```
+Manifest Like a Hustler (MNFT) is not just a token.  
+It is a wealth-building ecosystem designed to connect:
 
-2. Start the app
+- 🏠 Real Estate Development  
+- 💈 Service-Based Businesses  
+- 🛍️ Digital & Physical Products  
+- 📚 Financial Education  
+- 🤝 Community-Driven Growth  
 
-   ```bash
-   npx expo start
-   ```
+**We don’t chase hype.  
+We build systems that produce wealth.**
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧠 Philosophy
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+> “We don’t manifest by wishing.  
+> We manifest by aligning, building, and executing.”
 
-## Get a fresh project
+Manifest Like a Hustler stands on three principles:
 
-When you're ready, run:
+1. **Alignment Before Action**  
+2. **Ownership Over Everything**  
+3. **Build Once, Scale Forever**
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🧱 The Ecosystem
 
-## Learn more
+### 🏠 Real Estate
+- Jimtown Project (Affordable Housing)
+- Long-term rental portfolio
+- Generational wealth through property
 
-To learn more about developing your project with Expo, look at the following resources:
+### 💈 Business
+- A+ Salon
+- Product expansion (beauty + lifestyle)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 🛍️ Commerce
+- Shopify + Etsy stores
+- MNFT merchandise
+- Kentucky lifestyle branding
 
-## Join the community
+### 📚 Education
+- Books (KDP)
+- Wealth frameworks
+- Builder mindset
 
-Join our community of developers creating universal apps.
+### 🌐 Digital
+- Apps + AI tools
+- Token integrations
+- Community platforms
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🪙 Token Purpose
+
+- 🎁 Rewards Layer  
+- 🔗 Ecosystem Connector  
+- 📈 Growth Signal  
+
+**This is a long-term system, not a short-term play.**
+
+---
+
+## 🛠️ What We’re Building
+
+- Documentation  
+- Financial models  
+- Platform code  
+- Automation tools  
+- Ecosystem integrations  
+
+---
+
+## 🤝 Community
+
+This is a network of builders.
+
+If you’re creating, investing, learning, or growing — you’re in.
+
+---
+
+## 🔥 Why This Is Different
+
+Most tokens:
+- Start with hype  
+- End with nothing  
+
+MNFT:
+- Built on real assets  
+- Driven by real systems  
+- Scaled by real people  
+
+---
+
+## 🧭 Roadmap
+
+**Phase 1 – Foundation**
+- Token launch  
+- Brand + community  
+
+**Phase 2 – Infrastructure**
+- Shopify integration  
+- Content ecosystem  
+- Real estate execution  
+
+**Phase 3 – Expansion**
+- Apps + tools  
+- Token utility  
+- Partnerships  
+
+**Phase 4 – Ecosystem**
+- Full wealth system  
+- Multi-income network  
+
+---
+
+## ⚠️ Disclaimer
+
+Not financial advice.  
+We are building in public.
+
+---
+
+## 🧱 Final Word
+
+> “We are not chasing money.  
+> We are building systems that attract it.”
+
+---
+
+## 🔗 Connect
+
+- X: [Add Link]  
+- Telegram: [Add Link]  
+- Website: [Add Link]  
