@@ -1,145 +1,55 @@
-# 🧱 Manifest Like a Hustler (MNFT)
+# Rephrase
 
-### Building Real-World Wealth Through Alignment, Ownership, and Execution
+Rephrase helps people shape a message around the feeling they want to express. It keeps the original meaning and facts, then rewrites the draft in a selected tone.
 
----
+## Features
 
-## 🚀 Overview
+- Expo app for iOS, Android, and web
+- Seven tones: heartfelt, warm, encouraging, confident, apologetic, professional, and direct
+- Node.js API keeps the OpenAI key off the client
+- Drafts are not stored by this API
+- Input limits, CORS allow-list, and basic per-process rate limiting
 
-Manifest Like a Hustler (MNFT) is not just a token.  
-It is a wealth-building ecosystem designed to connect:
+## Run locally
 
-- 🏠 Real Estate Development  
-- 💈 Service-Based Businesses  
-- 🛍️ Digital & Physical Products  
-- 📚 Financial Education  
-- 🤝 Community-Driven Growth  
+Install Node.js 20 or newer, then run:
 
-**We don’t chase hype.  
-We build systems that produce wealth.**
+```sh
+npm install
+cp .env.example .env
+```
 
----
+Set your API key in the terminal. Do not put it in an EXPO_PUBLIC_ variable or commit it to GitHub:
 
-## 🧠 Philosophy
+```sh
+export OPENAI_API_KEY="your-api-key"
+```
 
-> “We don’t manifest by wishing.  
-> We manifest by aligning, building, and executing.”
+Start the API in one terminal and Expo in another:
 
-Manifest Like a Hustler stands on three principles:
+```sh
+npm run server
+```
 
-1. **Alignment Before Action**  
-2. **Ownership Over Everything**  
-3. **Build Once, Scale Forever**
+```sh
+npm start
+```
 
----
+Open the Expo Go QR code on your iPhone. For a physical phone, set EXPO_PUBLIC_API_URL in .env to your Mac's local network address, such as http://192.168.1.25:3000. Keep the phone and Mac on the same Wi-Fi network.
 
-## 🧱 The Ecosystem
+## Deploy the API
 
-### 🏠 Real Estate
-- Jimtown Project (Affordable Housing)
-- Long-term rental portfolio
-- Generational wealth through property
+Deploy server/index.mjs as a Node.js web service with npm run server as its start command. Configure these variables in the host's private environment settings:
 
-### 💈 Business
-- A+ Salon
-- Product expansion (beauty + lifestyle)
+| Variable | Purpose |
+| --- | --- |
+| OPENAI_API_KEY | Secret API key used by the server |
+| OPENAI_MODEL | Optional model override; defaults to gpt-4o-mini |
+| ALLOWED_ORIGINS | Comma-separated browser origins allowed to call the API |
+| PORT | Usually assigned by the host |
 
-### 🛍️ Commerce
-- Shopify + Etsy stores
-- MNFT merchandise
-- Kentucky lifestyle branding
+The host needs outbound HTTPS access to api.openai.com. After deployment, check /health and set EXPO_PUBLIC_API_URL to the API's HTTPS base URL when building the app. Hosting and OpenAI usage can have separate charges.
 
-### 📚 Education
-- Books (KDP)
-- Wealth frameworks
-- Builder mindset
+## Privacy
 
-### 🌐 Digital
-- Apps + AI tools
-- Token integrations
-- Community platforms
-
----
-
-## 🪙 Token Purpose
-
-- 🎁 Rewards Layer  
-- 🔗 Ecosystem Connector  
-- 📈 Growth Signal  
-
-**This is a long-term system, not a short-term play.**
-
----
-
-## 🛠️ What We’re Building
-
-- Documentation  
-- Financial models  
-- Platform code  
-- Automation tools  
-- Ecosystem integrations  
-
----
-
-## 🤝 Community
-
-This is a network of builders.
-
-If you’re creating, investing, learning, or growing — you’re in.
-
----
-
-## 🔥 Why This Is Different
-
-Most tokens:
-- Start with hype  
-- End with nothing  
-
-MNFT:
-- Built on real assets  
-- Driven by real systems  
-- Scaled by real people  
-
----
-
-## 🧭 Roadmap
-
-**Phase 1 – Foundation**
-- Token launch  
-- Brand + community  
-
-**Phase 2 – Infrastructure**
-- Shopify integration  
-- Content ecosystem  
-- Real estate execution  
-
-**Phase 3 – Expansion**
-- Apps + tools  
-- Token utility  
-- Partnerships  
-
-**Phase 4 – Ecosystem**
-- Full wealth system  
-- Multi-income network  
-
----
-
-## ⚠️ Disclaimer
-
-Not financial advice.  
-We are building in public.
-
----
-
-## 🧱 Final Word
-
-> “We are not chasing money.  
-> We are building systems that attract it.”
-
----
-
-## 🔗 Connect
-
-- X: [Add Link]  
-- Telegram: [Add Link]  
-- Website: [Add Link]  
+The app sends the message and selected tone to the API, which forwards them to OpenAI and does not store drafts in a database. Avoid entering passwords, payment details, or other sensitive information. Review the hosting provider's and OpenAI's current data policies before using private messages.
